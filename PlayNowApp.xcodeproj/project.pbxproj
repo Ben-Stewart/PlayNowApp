@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68B0AE87D77DE03242801896 /* Pods_PlayNowAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC360B7C55F7177F2FD53A3A /* Pods_PlayNowAppTests.framework */; };
 		73E238DD239D94AB00B13818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E238DC239D94AB00B13818 /* AppDelegate.swift */; };
-		73E238DF239D94AB00B13818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E238DE239D94AB00B13818 /* ViewController.swift */; };
+		73E238DF239D94AB00B13818 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E238DE239D94AB00B13818 /* SignInVC.swift */; };
 		73E238E2239D94AB00B13818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E238E0239D94AB00B13818 /* Main.storyboard */; };
 		73E238E4239D94B000B13818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E238E3239D94B000B13818 /* Assets.xcassets */; };
 		73E238E7239D94B000B13818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E238E5239D94B000B13818 /* LaunchScreen.storyboard */; };
 		73E238F2239D94B000B13818 /* PlayNowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E238F1239D94B000B13818 /* PlayNowAppTests.swift */; };
 		73E238FD239D94B000B13818 /* PlayNowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E238FC239D94B000B13818 /* PlayNowAppUITests.swift */; };
+		73E2390B239D95D100B13818 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73E2390A239D95D100B13818 /* GoogleService-Info.plist */; };
+		78158139B802DC092B422148 /* Pods_PlayNowApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E232A5E4865865431ABD82E /* Pods_PlayNowApp.framework */; };
+		B193EB5F978FF9880F71A57E /* Pods_PlayNowApp_PlayNowAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15976D4AC87AE58EB4349D27 /* Pods_PlayNowApp_PlayNowAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E232A5E4865865431ABD82E /* Pods_PlayNowApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayNowApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15976D4AC87AE58EB4349D27 /* Pods_PlayNowApp_PlayNowAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayNowApp_PlayNowAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FCCBA18C22FA7F22F1BD02 /* Pods-PlayNowAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayNowAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayNowAppTests/Pods-PlayNowAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73E238D9239D94AB00B13818 /* PlayNowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayNowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E238DC239D94AB00B13818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73E238DE239D94AB00B13818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73E238DE239D94AB00B13818 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		73E238E1239D94AB00B13818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73E238E3239D94B000B13818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E238E6239D94B000B13818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		73E238F8239D94B000B13818 /* PlayNowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayNowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E238FC239D94B000B13818 /* PlayNowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayNowAppUITests.swift; sourceTree = "<group>"; };
 		73E238FE239D94B000B13818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E2390A239D95D100B13818 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76660F3839423E7FDDE69104 /* Pods-PlayNowApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayNowApp.release.xcconfig"; path = "Target Support Files/Pods-PlayNowApp/Pods-PlayNowApp.release.xcconfig"; sourceTree = "<group>"; };
+		90EB6DCFA071D43BC50C8F6D /* Pods-PlayNowAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayNowAppTests.release.xcconfig"; path = "Target Support Files/Pods-PlayNowAppTests/Pods-PlayNowAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE2175B32720B5544265F231 /* Pods-PlayNowApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayNowApp.debug.xcconfig"; path = "Target Support Files/Pods-PlayNowApp/Pods-PlayNowApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DA1B333CB3C456097D4C711D /* Pods-PlayNowApp-PlayNowAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayNowApp-PlayNowAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PlayNowApp-PlayNowAppUITests/Pods-PlayNowApp-PlayNowAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E10B92DC3F777C7201A4D4F2 /* Pods-PlayNowApp-PlayNowAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayNowApp-PlayNowAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlayNowApp-PlayNowAppUITests/Pods-PlayNowApp-PlayNowAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC360B7C55F7177F2FD53A3A /* Pods_PlayNowAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayNowAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78158139B802DC092B422148 /* Pods_PlayNowApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B0AE87D77DE03242801896 /* Pods_PlayNowAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B193EB5F978FF9880F71A57E /* Pods_PlayNowApp_PlayNowAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				73E238F0239D94B000B13818 /* PlayNowAppTests */,
 				73E238FB239D94B000B13818 /* PlayNowAppUITests */,
 				73E238DA239D94AB00B13818 /* Products */,
+				E789017AAB9E7483D3129929 /* Pods */,
+				89DFCAE4965B1382FCC8336E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,15 @@
 		73E238DB239D94AB00B13818 /* PlayNowApp */ = {
 			isa = PBXGroup;
 			children = (
+				73E2390C239D9F9400B13818 /* Model */,
+				73E2390E239D9FAE00B13818 /* Controller */,
+				73E2390D239D9FA200B13818 /* View */,
 				73E238DC239D94AB00B13818 /* AppDelegate.swift */,
-				73E238DE239D94AB00B13818 /* ViewController.swift */,
 				73E238E0239D94AB00B13818 /* Main.storyboard */,
 				73E238E3239D94B000B13818 /* Assets.xcassets */,
 				73E238E5239D94B000B13818 /* LaunchScreen.storyboard */,
 				73E238E8239D94B000B13818 /* Info.plist */,
+				73E2390A239D95D100B13818 /* GoogleService-Info.plist */,
 			);
 			path = PlayNowApp;
 			sourceTree = "<group>";
@@ -125,6 +147,51 @@
 			path = PlayNowAppUITests;
 			sourceTree = "<group>";
 		};
+		73E2390C239D9F9400B13818 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E2390D239D9FA200B13818 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E2390E239D9FAE00B13818 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73E238DE239D94AB00B13818 /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89DFCAE4965B1382FCC8336E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E232A5E4865865431ABD82E /* Pods_PlayNowApp.framework */,
+				15976D4AC87AE58EB4349D27 /* Pods_PlayNowApp_PlayNowAppUITests.framework */,
+				EC360B7C55F7177F2FD53A3A /* Pods_PlayNowAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E789017AAB9E7483D3129929 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE2175B32720B5544265F231 /* Pods-PlayNowApp.debug.xcconfig */,
+				76660F3839423E7FDDE69104 /* Pods-PlayNowApp.release.xcconfig */,
+				E10B92DC3F777C7201A4D4F2 /* Pods-PlayNowApp-PlayNowAppUITests.debug.xcconfig */,
+				DA1B333CB3C456097D4C711D /* Pods-PlayNowApp-PlayNowAppUITests.release.xcconfig */,
+				68FCCBA18C22FA7F22F1BD02 /* Pods-PlayNowAppTests.debug.xcconfig */,
+				90EB6DCFA071D43BC50C8F6D /* Pods-PlayNowAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E23901239D94B000B13818 /* Build configuration list for PBXNativeTarget "PlayNowApp" */;
 			buildPhases = (
+				530C7AF33272B69189C10928 /* [CP] Check Pods Manifest.lock */,
 				73E238D5239D94AB00B13818 /* Sources */,
 				73E238D6239D94AB00B13818 /* Frameworks */,
 				73E238D7239D94AB00B13818 /* Resources */,
+				6A84485859AA39927C286BA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E23904239D94B000B13818 /* Build configuration list for PBXNativeTarget "PlayNowAppTests" */;
 			buildPhases = (
+				6D2CC0E18342FDC7A3BD94B2 /* [CP] Check Pods Manifest.lock */,
 				73E238E9239D94B000B13818 /* Sources */,
 				73E238EA239D94B000B13818 /* Frameworks */,
 				73E238EB239D94B000B13818 /* Resources */,
@@ -167,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E23907239D94B000B13818 /* Build configuration list for PBXNativeTarget "PlayNowAppUITests" */;
 			buildPhases = (
+				C40C50588653186A333905BA /* [CP] Check Pods Manifest.lock */,
 				73E238F4239D94B000B13818 /* Sources */,
 				73E238F5239D94B000B13818 /* Frameworks */,
 				73E238F6239D94B000B13818 /* Resources */,
+				8093A1B22E4EA3EC9898A1F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E238E7239D94B000B13818 /* LaunchScreen.storyboard in Resources */,
+				73E2390B239D95D100B13818 /* GoogleService-Info.plist in Resources */,
 				73E238E4239D94B000B13818 /* Assets.xcassets in Resources */,
 				73E238E2239D94AB00B13818 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +324,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		530C7AF33272B69189C10928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayNowApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A84485859AA39927C286BA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayNowApp/Pods-PlayNowApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayNowApp/Pods-PlayNowApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayNowApp/Pods-PlayNowApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D2CC0E18342FDC7A3BD94B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayNowAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8093A1B22E4EA3EC9898A1F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayNowApp-PlayNowAppUITests/Pods-PlayNowApp-PlayNowAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayNowApp-PlayNowAppUITests/Pods-PlayNowApp-PlayNowAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayNowApp-PlayNowAppUITests/Pods-PlayNowApp-PlayNowAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40C50588653186A333905BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayNowApp-PlayNowAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73E238D5239D94AB00B13818 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E238DF239D94AB00B13818 /* ViewController.swift in Sources */,
+				73E238DF239D94AB00B13818 /* SignInVC.swift in Sources */,
 				73E238DD239D94AB00B13818 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +606,7 @@
 		};
 		73E23902239D94B000B13818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2175B32720B5544265F231 /* Pods-PlayNowApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +624,7 @@
 		};
 		73E23903239D94B000B13818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76660F3839423E7FDDE69104 /* Pods-PlayNowApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +642,7 @@
 		};
 		73E23905239D94B000B13818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FCCBA18C22FA7F22F1BD02 /* Pods-PlayNowAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +663,7 @@
 		};
 		73E23906239D94B000B13818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EB6DCFA071D43BC50C8F6D /* Pods-PlayNowAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +684,7 @@
 		};
 		73E23908239D94B000B13818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10B92DC3F777C7201A4D4F2 /* Pods-PlayNowApp-PlayNowAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +704,7 @@
 		};
 		73E23909239D94B000B13818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1B333CB3C456097D4C711D /* Pods-PlayNowApp-PlayNowAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
